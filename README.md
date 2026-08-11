@@ -12,4 +12,6 @@ Open [http://127.0.0.1:8765/redesign/](http://127.0.0.1:8765/redesign/)
 
 ## GitHub Pages
 
-The published site is served from this repository. The marketing site lives in `redesign/` with shared media in `assets/`.
+Live site: [https://calvinadaniel.github.io/miner-dispute-resolution/](https://calvinadaniel.github.io/miner-dispute-resolution/)
+
+The marketing site lives in `redesign/` with shared media in `assets/`.
