@@ -418,31 +418,17 @@ p:last-child {
   object-fit: cover;
   object-position: center 30%;
   transform: scale(1.04);
-  animation: heroDrift 18s var(--ease) infinite alternate;
 }
 
 @media (max-width: 719px) {
   .hero-media img {
     object-position: 64% 28%;
     transform: scale(1.05);
-    animation: heroDriftMobile 40s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate;
-    will-change: transform;
-    backface-visibility: hidden;
   }
 
   .hero {
     min-height: min(88vh, 44rem);
   }
-}
-
-@keyframes heroDrift {
-  from { transform: scale(1.04) translate3d(0, 0, 0); }
-  to { transform: scale(1.08) translate3d(-1.2%, -0.8%, 0); }
-}
-
-@keyframes heroDriftMobile {
-  from { transform: scale(1.05) translate3d(0, 0, 0); }
-  to { transform: scale(1.08) translate3d(-0.35%, -0.2%, 0); }
 }
 
 .hero::after {
